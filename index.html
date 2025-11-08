@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe 🎮</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tic Tac Toe 🎮</h1>
+
+    <div class="controls">
+      <label>Game Mode:</label>
+      <select id="gameMode">
+        <option value="pvp">Vs Player</option>
+        <option value="easy">Vs Computer (Easy)</option>
+        <option value="hard">Vs Computer (Hard)</option>
+      </select>
+
+      <label>Theme:</label>
+      <select id="themeSelect">
+        <option value="emoji">Emoji 😎🤖</option>
+        <option value="classic">Classic ❌⭕</option>
+      </select>
+
+      <button id="darkModeBtn">🌙 Dark Mode</button>
+      <button id="soundBtn">🔊 Sound On</button>
+    </div>
+
+    <h2 id="turnText"></h2>
+    <div class="board" id="board"></div>
+    <p id="scoreBoard"></p>
+    <p id="result"></p>
+
+    <button id="restartBtn">Restart Game</button>
+    <button id="resetScoreBtn">Reset Score</button>
+  </div>
+
+  <!-- 🎨 Name Input Modal -->
+  <div id="nameModal" class="modal">
+    <div class="modal-content">
+      <h2>Enter Player Names</h2>
+      <div id="player1InputBox">
+        <label>Player 1:</label>
+        <input type="text" id="player1Input" placeholder="Player 1">
+      </div>
+      <div id="player2InputBox">
+        <label>Player 2:</label>
+        <input type="text" id="player2Input" placeholder="Player 2">
+      </div>
+      <button id="startGameBtn">Start Game</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
