@@ -8,38 +8,55 @@ The AI opponent supports multiple difficulty levels, allowing users to either pl
 
 
 ✨ Features:
+
 🎮 Multiple Game Modes
+
     Player vs Player
+    
     Player vs Computer (Easy & Hard AI)
 
 🧠 AI Opponent
+
     Easy Mode: Random computer moves
+    
     Hard Mode: Smart computer logic to block/win
 
 👥 Custom Player Names
+
     Enter player names using a modern popup modal
+    
     Automatically sets Player 2 as Computer in AI mode
 
 🌙 Dark Mode
+
     Toggle between light and dark themes
 
 🔊 Sound Controls
+
     Turn game sounds ON/OFF anytime
 
 🎭 Theme Selection
+
     Classic ❌ ⭕
+    
     Emoji 😎 🤖
 
 📊 Score Tracking
+
     Keeps score during gameplay
+    
     Reset score option available
 
 💻 Responsive Design
+
     Works smoothly on desktop and mobile browsers
 
 🛠️ Technologies Used:
+
     HTML5 – Structure of the game
+    
     CSS3 – Styling, themes, and dark mode
+    
     JavaScript (ES6) – Game logic, AI, DOM manipulation
 
 
