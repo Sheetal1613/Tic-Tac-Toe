@@ -62,4 +62,4 @@ The AI opponent supports multiple difficulty levels, allowing users to either pl
 
 Live Demo :
 
-🔗 Play here: https://Sheetal1613.github.io/tic-tac-toe/
+🔗 Play here: http://127.0.0.1:5500/index.html
